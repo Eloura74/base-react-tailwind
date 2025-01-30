@@ -55,6 +55,19 @@ Aller dans `index.css` et :
 @import "tailwindcss";
 ```
 
+# Installation des dépendances
+
+Pour installer toutes les dépendances nécessaires au projet, exécutez les commandes suivantes :
+
+```bash
+# Installation des dépendances de routage
+npm install react-router-dom@7.1.4
+
+# Installation des dépendances SEO
+npm install react-helmet-async@2.0.5
+
+```
+
 ## 6. Lancement du Projet
 
 Ensuite en CLI :
@@ -64,5 +77,22 @@ npm run dev
 ```
 
 ---
+
+## Versions des packages
+
+Les packages principaux utilisés dans ce projet sont :
+
+- `react-router-dom` (v7.1.4) - Pour la gestion des routes
+- `react-helmet-async` (v2.0.5) - Pour la gestion des métadonnées SEO
+- `tailwindcss` (v4.0.1) - Pour le styling
+- `@tailwindcss/vite` (v4.0.1) - Plugin Tailwind pour Vite
+
+### Autres dépendances importantes
+
+- `react` (v18.3.1)
+- `react-dom` (v18.3.1)
+- `vite` (v6.0.5)
+
+Note : Toutes les versions exactes sont définies dans le fichier `package.json`
 
 ### 🚀 À vous de jouer !
