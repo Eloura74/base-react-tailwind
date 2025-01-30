@@ -1,27 +1,52 @@
-<!doctype html>
-<html lang="fr" dir="ltr">
+<!DOCTYPE html>
+<html lang="fr">
+  <!-- Mettre en français si le site cible des utilisateurs francophones -->
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Description de votre application React - Ajoutez une description pertinente ici" />
-    <meta name="keywords" content="react, application, vite, votre-mot-clé" />
-    <meta name="author" content="Votre nom ou entreprise" />
-    <meta name="theme-color" content="#ffffff" />
-    <meta property="og:title" content="Titre de votre application" />
-    <meta property="og:description" content="Description de votre application React" />
+
+    <!-- Icône du site -->
+    <link rel="icon" type="image/png" href="/favicon.ico" />
+
+    <!-- Balise SEO -->
+    <title>Nom de votre site - Votre slogan</title>
+    <meta
+      name="description"
+      content="Une description claire de votre site pour les moteurs de recherche."
+    />
+
+    <!-- Open Graph (réseaux sociaux) -->
+    <meta property="og:title" content="Nom de votre site" />
+    <meta
+      property="og:description"
+      content="Une description claire pour les réseaux sociaux."
+    />
+    <meta property="og:image" content="/assets/social-preview.jpg" />
+    <meta property="og:url" content="https://votre-site.com" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://votre-url.com" />
-    <meta property="og:image" content="/chemin-vers-votre-image.jpg" />
-    <link rel="canonical" href="https://votre-url.com" />
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-    <title>Titre de votre application | Description courte</title>
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Nom de votre site" />
+    <meta
+      name="twitter:description"
+      content="Description de votre site sur Twitter."
+    />
+    <meta name="twitter:image" content="/assets/social-preview.jpg" />
+
+    <!-- Sécurité et optimisation SEO -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Progressive Web App (PWA) -->
+    <link rel="manifest" href="/manifest.json" />
+
+    <!-- Amélioration Accessibilité -->
+    <link rel="canonical" href="https://votre-site.com" />
+    <meta name="theme-color" content="#ffffff" />
   </head>
   <body>
-    <main id="root"></main>
-    <noscript>
-      <p>Cette application nécessite JavaScript pour fonctionner. Veuillez l'activer pour continuer.</p>
-    </noscript>
-    <script type="module" src="/src/main.tsx"></script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

@@ -13,8 +13,10 @@ npm create vite@latest .
 ```
 
 Sélectionner les options suivantes :
+
+- **enter pour le premier pour être dans votre dossier actuel, sinon choissez** : 'votre chemin/nom_du_dossier'
 - ✨ **Premier choix** : `React`
-- 🔧 **Second choix** : `TypeScript`
+- 🔧 **Second choix** : `JavaScript`
 
 ## 3. Installation de Tailwind CSS
 
@@ -31,18 +33,15 @@ Ensuite aller dans le fichier `vite.config.ts`
 Ajouter :
 
 ```typescript
-import tailwindcss from '@tailwindcss/vite'
+import tailwindcss from "@tailwindcss/vite";
 ```
 
 Et corriger :
 
 ```typescript
 export default defineConfig({
-    plugins: [
-        react(),
-        tailwindcss()
-    ]
-})
+  plugins: [react(), tailwindcss()],
+});
 ```
 
 ## 5. Configuration de Tailwind
