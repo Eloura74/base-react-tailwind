@@ -64,6 +64,8 @@ Pour installer toutes les dépendances nécessaires au projet, exécutez les com
 npm install react-router-dom@7.1.4
 
 # Installation des dépendances SEO
+npm install react-helmet
+
 npm install react-helmet-async@2.0.5
 
 ```
